@@ -3,7 +3,9 @@
 :root {
     --primary-color: #49a0eb;
     --off-white: #F3F4F6;
-    --dark-gray: #6B7280;
+    --dark-gray: 
+    #4B5563;
+
 }
 
 body {
@@ -13,6 +15,13 @@ body {
 
 hr {
     margin: 2rem 0rem
+}
+
+.bloglining{
+    margin: 0.5rem;
+}
+.blogHeader{
+    margin: 0.5rem;
 }
 
 /* spaces */
@@ -59,7 +68,7 @@ hr {
 
 .link-blog {
     padding:0rem;
-    color: var(--primary-color);
+    color: var(--dark-gray);
 }
 
 
@@ -107,7 +116,7 @@ hr {
 /* header */
 
 .hero {
-    padding-top: 4rem;
+    padding-top: 2rem;
 }
 
 .hero .hero-img {
@@ -150,6 +159,12 @@ hr {
     text-align: center;
 }
 
+/** Paragraph**/
+
+.blogOne {
+    line-height: 2rem;
+}
+
 /** footer **/
 
 .footer {
@@ -174,3 +189,4 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 }
+
