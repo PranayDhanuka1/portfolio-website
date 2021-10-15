@@ -23,7 +23,6 @@ hr {
 .blogHeader{
     margin: 0.5rem;
 }
-
 /* spaces */
 .pad-sm{
     padding:0.5rem 0rem;
@@ -163,6 +162,11 @@ hr {
 
 .blogOne {
     line-height: 2rem;
+}
+.blogParaStyle{
+    
+padding-top: 1rem;
+padding-bottom: 0.5rem;
 }
 
 /** footer **/

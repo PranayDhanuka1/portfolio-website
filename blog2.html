@@ -15,7 +15,7 @@
     <div class="container container-blog">
         <a style="text-decoration: none; color: #6B7280; " href="blog.html">Back</a>
         <header class="hero">
-            <h1 class="hero-heading"> 
+            <h1 class="hero-heading">
                 CSS <span class="heading-inverted">Box Model</span></h1>
             <hr class="bloglining">
             <p class="blogHeader"> <strong>- Pranay Dhanuka </strong></p>
@@ -28,17 +28,20 @@
         </header>
 
         <p class="blogOne">
-            The CSS Box Model is used to create a definition for the way the HTML elements are organized on the screen. It help us to organize our data and make the website layout neat.
+            The CSS Box Model is used to create a definition for the way the HTML elements are organized on the screen.
+            It help us to organize our data and make the website layout neat.
             <br>
-            Each element can be thought of as having its own box. All the elemets of the box have to work together with each other, due to which it becomes importat to understand how BOX MODEL works.  <br>
+            Each element can be thought of as having its own box. All the elemets of the box have to work together with
+            each other, due to which it becomes importat to understand how BOX MODEL works. <br>
             The CSS Box Model contain 4 elements within it.
-            <li>Margin</li> 
+            <li>Margin</li>
             <li>Border</li>
             <li>Padding</li>
             <li>content</li>
 
             <h2>Margin</h2>
-            The margin area extends the border area to include empty space area to help seprating the element from the neighbor elements.<br>
+            The margin area extends the border area to include empty space area to help seprating the element from the
+            neighbor elements.<br>
             The size of the margin area is determined by the
             <li> margin-top</li>
             <li>margin-right</li>
@@ -47,9 +50,9 @@
 
             <h2>Border</h2>
             The border area extends the padding area to include elements borders.<br>
-            
+
             <h2>Padding</h2>
-            The padding area helps us to include space between the content<br> 
+            The padding area helps us to include space between the content<br>
             Padding is determined by the
             <li> padding-top</li>
             <li>padding-right </li>
@@ -57,15 +60,29 @@
             <li>padding-left</li>
 
             <h2>Content</h2>
-            The Content area holds the main content of the element, such as text, images,video,etc.<br> 
-            The content area's size can be defined with     
+            The Content area holds the main content of the element, such as text, images,video,etc.<br>
+            The content area's size can be defined with
             <li>width</li>
             <li>min-width</li>
             <li> max-width</li>
             <li>height </li>
             <li>min-height</li>
-            <li>max-height</li>            
+            <li>max-height</li>
+
+            <h2>Width and Element Height</h2>
+            To set the correct width and height of any element we need to know how Box Model works.<br>
+            When we set the width and height properties of an element with CSS, we just set the width and height of the
+            content area. To calculate the full size of an element, we must also keep in mind and add padding, borders
+            and margins.<br>
+           <div class="blogParaStyle"> <b> The total width of an element can be calculated like this:</b></div><br>
+            Total element width = width  +  left padding  +  right padding  +  left border  +  right border  +  left margin  +  right margin<br>
+
+            <div class="blogParaStyle"> <b> The total height of an element can be calculated like this:</b></div><br>
+
+            Total element height = height  +  top padding  +  bottom padding  +  top border  +  bottom border  +  top margin  +  bottom margin
         </p>
+
+
 
     </div>
 
